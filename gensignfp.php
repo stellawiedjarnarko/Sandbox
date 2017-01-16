@@ -15,13 +15,6 @@
 			<h1 align="center">Generate Signature Faspay</h1>
 	                <hr style="width: 100px">
                     <form method="POST" action="">
-                        Request <br>
-                        <select name="request" class="form-control">
-                            <option value="ri">Request Inquiry</option>
-                            <option value="rt">Request Transaction</option>
-                        </select>
-                        <br>
-
                         User ID <input type="text" name="user_id" value="" class="form-control"><br>
                         Password <input type="password" name="password" value="" class="form-control"><br>
                         Order ID <input type="text" name="order_id" value="" class="form-control"><br><br>
