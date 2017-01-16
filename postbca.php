@@ -20,13 +20,13 @@
 				        <h1 class="dx-content-title">Redirect Post to BCA</h1>
 				    </header>
                     <form method="POST" action="">
-                        Trx ID <input type="text" name="trx_id" value="" class="form-control"><br>
-                        Klikpay Code <input type="text" name="klikpaycode" value="" class="form-control"><br>
-                        Total Amount <input type="text" name="totalamount" value="" class="form-control"><br>
-                        Currency <input type="text" name="currency" value="" class="form-control"><br>
-                        Description <input type="text" name="description" value="" class="form-control"><br>
-                        Callback <input type="text" name="callback" value="" class="form-control"><br>
-                        Misc Fee <input type="text" name="misc_fee" value="" class="form-control"><br><br>
+                        Trx ID <input type="text" name="trx_id" value="" class="form-control" required><br>
+                        Klikpay Code <input type="text" name="klikpaycode" value="" class="form-control" required><br>
+                        Total Amount <input type="text" name="totalamount" value="" class="form-control" required><br>
+                        Currency <input type="text" name="currency" value="" class="form-control" required><br>
+                        Description <input type="text" name="description" value="" class="form-control" required><br>
+                        Callback <input type="text" name="callback" value="" class="form-control" required><br>
+                        Misc Fee <input type="text" name="misc_fee" value="" class="form-control" required><br><br>
 
                         <button type="submit" name="submitForm" value="submit" class="btn btn-primary">Send</button>
                         <button type="submit" name="submitForm" value="code" class="btn btn-primary">Code</button>
