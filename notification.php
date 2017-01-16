@@ -22,12 +22,12 @@
 				        <h1 class="dx-content-title">Notification Payment</h1>
 				    </header>
                     <form method="POST" action="">
-                        URL <input type="text" name="url" value="" class="form-control"><br>
-                        Trx ID <input type="text" name="trx_id" value="" class="form-control"><br>
-                        Merchant ID <input type="text" name="merchant_id" value="" class="form-control"><br>
-                        Merchant Name <input type="text" name="merchant_name" value="" class="form-control"><br>
-                        Bill No <input type="text" name="bill_no" value="" class="form-control"><br>
-                        Password <input type="password" name="password" value="" class="form-control"><br><br>
+                        URL <input type="text" name="url" value="" class="form-control" required><br>
+                        Trx ID <input type="text" name="trx_id" value="" class="form-control" required><br>
+                        Merchant ID <input type="text" name="merchant_id" value="" class="form-control" required><br>
+                        Merchant Name <input type="text" name="merchant_name" value="" class="form-control" required><br>
+                        Bill No <input type="text" name="bill_no" value="" class="form-control" required><br>
+                        Password <input type="password" name="password" value="" class="form-control" required><br><br>
 
                         <button type="submit" name="submitForm" value="submit" class="btn btn-primary">Check</button>
                         <button type="submit" name="submitForm" value="code" class="btn btn-primary">Code</button>
