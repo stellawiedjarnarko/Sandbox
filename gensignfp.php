@@ -47,8 +47,8 @@
 			        <h1 class="dx-content-title">Generate Signature Faspay</h1>
 			    </header>
                 <form action="" method="post" id="theForm" name="theForm">
-                    User ID <input type="text" name="user_id" value="" class="form-control"><br>
-                    Password <input type="password" name="password" value="" class="form-control"><br>
+                    User ID <input type="text" name="user_id" value="" class="form-control" required><br>
+                    Password <input type="password" name="password" value="" class="form-control" required><br>
                     Order ID <input type="button" value="Generate" onClick="generateID(document.theForm);"/><input type="text" name="order_id" value="" class="form-control" required><br>
 
                     <button type="submit" name="submitForm" value="submit" class="btn btn-primary">Generate</button>
